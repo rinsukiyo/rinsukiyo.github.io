@@ -1,11 +1,84 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-<title>TestPage</title>
-</head>
-<body>
-<center>
-<h1>Long time no see XD</h1>
-</center>
-</body>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rinsuki</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<!-- SEO -->
+		<meta name="keywords" content="Rinsuki,Rinsukiyo" />
+		<meta name="description" content="你好！欢迎来到 Rinsuki 的个人主页！基于 Vuetify 构建 — Hello! Welcome to Rinsuki's personal homepage! Based on Vuetify." />
+		<link href="./css/style.css" rel="stylesheet" />
+		<link rel="shortcut icon" type="image/x-icon" href="./img/avatar.jpg" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet" />
+		<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet" />
+		<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet" />
+		<link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="app">
+			<v-app>
+				<template>
+					<v-layout row wrap align-center justify-center fill-height>
+						<center>
+							<v-card class="mx-auto" max-width="344">
+								<v-card-text>
+									<v-avatar color="grey lighten-2" size="128">
+										<!-- 自定义头像 Custom Avatar -->
+										<img src="./img/avatar.jpg" />
+									</v-avatar>
+									<div class="pitch">
+										<p class="display-1 text--primary">
+											Rinsuki
+										</p>
+									</div>
+									<div class="text--primary">
+										My name is Van, I'm an artist,<br />
+										I'm a performance artist.<br />
+										I'm hired to people to fulfill their fantasies,<br />
+										their deep dark fantasies.
+									</div>
+									<!-- 图标修改 Modification of icons -->
+									<div class="pitch">
+										<a href="https://github.com/rinsukiyo" title="Rinsuki (@rinsukiyo)" id="button" rel="external nofollow">
+											<v-btn icon>
+												<v-icon>mdi-github</v-icon>
+											</v-btn>
+										</a>
+										<a href="mailto:i@rinsuki.cc" title="i@rinsuki.cc" id="button" rel="external nofollow">
+											<v-btn icon>
+												<v-icon>mdi-email</v-icon>
+											</v-btn>
+										</a>
+										<a href="https://twitter.com/electricsus" title="Rinsuki (@electricsus)" id="button" rel="external nofollow">
+											<v-btn icon>
+												<v-icon>mdi-twitter</v-icon>
+											</v-btn>
+										</a>
+										<a href="http://wpa.qq.com/msgrd?v=3&uin=1090356836&site=qq&menu=yes" title="QQ: 1090356836" id="button" rel="external nofollow">
+											<v-btn icon>
+												<v-icon>mdi-qqchat</v-icon>
+											</v-btn>
+										</a>
+									</div>
+								</v-card-text>
+								<!-- 页尾 Footer -->
+								<v-footer padless>
+									<v-col class="text-center" cols="12">
+										{{ new Date().getFullYear() }} —
+										<strong>
+											<a href="/" id="button">Rinsuki</a>
+										</strong>
+										<br />
+										Designed by <a href="#" target="_blank" id="button" rel="external">Rinsuki</a>
+									</v-col>
+								</v-footer>
+							</v-card>
+					</v-layout>
+					</center>
+				</template>
+			</v-app>
+		</div>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+		<script type="text/javascript" src="./js/app.js"></script>
+	</body>
 </html>
