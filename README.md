@@ -1,5 +1,10 @@
-# rinsukiyo.github.io
-<p>这里只是一个 Github Pages 的 Repository :)<br/>
-如果你对这个页面感兴趣，请移步 <a href="https://github.com/rinsukiyo/homepage">homepage</a>.</p>
-<p>This is a repository for Github Pages :)<br/>
-If you are interested in this page, please visit <a href="https://github.com/rinsukiyo/homepage">homepage</a>.</p>
+# Hello! I'm Rinsuki 👋
+I'm from 🇨🇳 and I'm currently studying computer science in 🇲🇾 !<br/>
+I'm interested in 🎮 design.<br/>
+I speak Chinese, English and <b>basic</b> Japanese.<br/>
+Although my skills are limited, I'll continue learning 📖!<br/>
+
+<h2>If you want to contact me...</h2>
+
+Discord: Rinsuki#8715<br/>
+Mail 📮: <a href="mailto:i@rinsuki.cc" target="_blank">i@rinsuki.cc</a>
